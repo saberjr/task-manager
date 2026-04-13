@@ -1,0 +1,66 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "email": "admin@admin.com",
+      "password": "$2a$10$8kimS3plb5.lt6teV2hj.OytwhqvfRJLsMgWdfhLeKWtcX.ZyF8ny",
+      "name": "Abdullah"
+    }
+  ],
+  "tasks": [
+    {
+      "title": "Set up Flutter project",
+      "description": "Initialize the project and add all dependencies.",
+      "status": "done",
+      "priority": "high",
+      "dueDate": "2026-04-01",
+      "assignedTo": "Abdullah",
+      "id": 1
+    },
+    {
+      "id": 2,
+      "title": "Build login screen",
+      "description": "Email + password form with validation.",
+      "status": "done",
+      "priority": "high",
+      "dueDate": "2026-04-03",
+      "assignedTo": "Abdullah"
+    },
+    {
+      "title": "Connect app to API",
+      "description": null,
+      "status": "done",
+      "priority": "high",
+      "dueDate": "2026-04-10",
+      "assignedTo": "Abdullah",
+      "id": 3
+    },
+    {
+      "title": "Write unit tests",
+      "description": "Cover the API service and Task model.",
+      "status": "done",
+      "priority": "medium",
+      "dueDate": "2026-04-20",
+      "assignedTo": null,
+      "id": 4
+    },
+    {
+      "title": "Deploy to production",
+      "description": null,
+      "status": "todo",
+      "priority": "medium",
+      "dueDate": null,
+      "assignedTo": null,
+      "id": 5
+    },
+    {
+      "title": "Demo",
+      "description": null,
+      "status": "done",
+      "priority": "high",
+      "dueDate": "2026-04-09",
+      "assignedTo": "Abdullah",
+      "id": 6
+    }
+  ]
+}

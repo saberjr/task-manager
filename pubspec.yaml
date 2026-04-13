@@ -1,0 +1,35 @@
+name: task_manager
+description: A simple task management app that connects to a REST API.
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # HTTP requests to talk to our REST API
+  http: ^1.2.0
+
+  # Store the auth token locally on the device
+  shared_preferences: ^2.2.3
+
+  # State management — only used for auth (login/logout)
+  provider: ^6.1.2
+
+  # Date formatting (e.g. "April 8, 2026")
+  intl: ^0.19.0
+
+  # Default icons
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
